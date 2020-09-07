@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body class='body'>
+
+  <h1 class='game-title'>Connect 4</h1>
+
+  <form action="#" class='game-setup'>
+    <input class='player-color' id="p1-color" placeholder="player 1 color" type="text">
+    <input class='player-color' id='p2-color' placeholder="player 2 color" type="text">
+    <button class='start=game' id='start-game'>Start!</button>
+  </form> <br>
+
+  <div class="game" id="game">
+    <table id="board"></table>
+  </div>
+
+  <h2 class='winner'></h2>
+
+  <div class="restart-container">
+
+  </div>
+
+  <script src="connect4.js"></script>
+</body>
+</html>

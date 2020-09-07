@@ -1,0 +1,74 @@
+/* game board table */
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+.game-setup {
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  background-color: black;
+}
+
+.game-title {
+  text-align: center;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5em;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+
+.board {
+  background-color: rgba(148, 148, 250, 0.4);
+  padding: 2%;
+  box-shadow: inset 0 0 0 2vw rgb(116, 122, 114);
+  border-radius: 10%;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+.piece {
+  margin: 1px;
+  width: 98%;
+  height: 98%;
+  border-radius: 50%;
+}
+
+
+.cell {
+  background-color: black;
+  border-radius: 50%;
+}
+
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+
+.winner {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.winner.p1 {
+  color: red;
+}
+
+.winner.p2 {
+  color: white;
+}
+
+.restart-container {
+  display: flex;
+  justify-content: center;
+}
